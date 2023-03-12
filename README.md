@@ -36,6 +36,8 @@ npm start
 ## Usage
 View the video walkthrough: [Video](https:https://drive.google.com/file/d/1gXPCXYN4JDi3aJ8cUJNg79AWZZnF1YuJ/view)
 
+You can see a screenshot here: [Screenshot](https://)
+
 ## Tests
 
 No currebt testing
