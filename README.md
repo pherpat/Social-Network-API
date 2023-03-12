@@ -1,4 +1,4 @@
-# Social-Networ-API
+# Social-Network-API
 
 ## Description
 
@@ -36,7 +36,7 @@ npm start
 ## Usage
 View the video walkthrough: [Video](https:https://drive.google.com/file/d/1gXPCXYN4JDi3aJ8cUJNg79AWZZnF1YuJ/view)
 
-You can see a screenshot here: [Screenshot](https://)
+You can see a screenshot here: [Screenshot](https://github.com/pherpat/Social-Network-API/blob/main/assets/images/social-network-api-screenshot.png)
 
 ## Tests
 
