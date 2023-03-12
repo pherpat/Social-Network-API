@@ -5,7 +5,7 @@ const { User, Thought } = require('../models');
 const userController = {
   
 // Get all users
-getAllUser(req, res) {
+getAllUsers(req, res) {
     User.find({})
     .populate({
         path: "friends",
