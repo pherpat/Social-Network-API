@@ -4,6 +4,14 @@
 
   The purpose of this assigment was to to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 
+<p align="center">
+    <img src="https://img.shields.io/badge/javascript-yellow" />
+    <img src="https://img.shields.io/badge/express-orange" />
+    <img src="https://img.shields.io/badge/MongoDB-blue"  />
+    <img src="https://img.shields.io/badge/mongoose-red"  />
+    <img src="https://img.shields.io/badge/nodemon-green" />
+</p>
+
  ## Table of Contents
 
  - [License](#license)
@@ -16,8 +24,10 @@
 
  ## Installation
 
-To install this application, follow these steps:
-clone this project and instal the following npm packages: 
+To run this project 
+````
+npm start
+````
 
 
 ## License
@@ -31,7 +41,7 @@ View the video walkthrough: [Video](https:)
 
 ## Tests
 
-Make sure to install the npm packages 
+No currebt testing
 
 ## Questions
  Please email me, if you have any questions
