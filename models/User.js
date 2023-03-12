@@ -1,7 +1,7 @@
 // Define Mongoose
 const { Schema, model } = require('mongoose');
 
-// Create a new instance of the Mongoose schema to define shape of each document
+// Schema to create User model
 const userSchema = new Schema(
     {
     username: {
@@ -18,7 +18,8 @@ const userSchema = new Schema(
         match: [/.+@.+\..+/] //regular expression pattern used for email validation
     },
 
-    thoughts: [{
+    thoughts: [
+        {
         // used to define fields in Mongoose schemas that will store MongoDB ObjectIds
         type: Schema.Types.ObjectId,
         ref: "Thought",
@@ -42,13 +43,15 @@ const userSchema = new Schema(
 
 // Mongoose schema method -  defines a virtual property for a User document
 // / Create a virtual property `friendCount` that gets the amount of friends 
-userSchema.virtual("friendCount").get(function () {
+userSchema.virtual("friendCount")
+// Getter
+.get(function () {
     return this.friends.length;
   });
 
 // Using mongoose.model() to compile a model based on the schema 'userSchema'
-// Initialize the Comment model
+// Initialize the User model 
 const User = model('User', userSchema);
 
-// This exports the User variable as a module to be used in other files
+// Export module Thought 
 module.exports = User;
