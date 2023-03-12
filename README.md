@@ -17,7 +17,6 @@
  - [License](#license)
  - [Installation](#installation)
  - [Features](#features)
- - [Credits](#contributors--credit)
  - [Usage](#usage)
  - [Tests](#tests)
  - [Questions](#questions)
@@ -33,8 +32,6 @@ npm start
 ## License
 
  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) 
-
-## Contributors & Credit
 
 ## Usage
 View the video walkthrough: [Video](https:)
