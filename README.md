@@ -34,7 +34,7 @@ npm start
  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) 
 
 ## Usage
-View the video walkthrough: [Video](https:)
+View the video walkthrough: [Video](https:https://drive.google.com/file/d/1gXPCXYN4JDi3aJ8cUJNg79AWZZnF1YuJ/view)
 
 ## Tests
 

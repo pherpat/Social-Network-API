@@ -19,6 +19,4 @@ db.once('open', () => {
  }); 
  
  
- // how to run it 
-    //npm i, npm run seed, npm start
-    // go to insonmia 
+ 
